@@ -1,0 +1,49 @@
+.videoContainer {
+  background-image: url("./img/fundo-video-conexao.svg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 950px;
+  width: 100%;
+  max-width: 1200px;
+  margin-top: -100px;
+}
+
+.videoContainer iframe {
+  margin-top: 250px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 800px;
+  height: 450px;
+  border-radius: 15px;
+}
+
+@media (min-width: 1280px) {
+  .videoContainer iframe {
+    margin-top: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 850px;
+    height: 490px;
+    border-radius: 15px;
+  }
+}
+
+@media (max-width: 700px) {
+  .videoContainer {
+    height: 300px;
+  }
+
+  .videoContainer iframe {
+    border-radius: 10px;
+    width: 300px;
+    height: 200px;
+    margin-top: 50px;
+  }
+}
+
+@media (max-width: 450px) {
+  .videoContainer {
+    margin-top: 0;
+  }
+}

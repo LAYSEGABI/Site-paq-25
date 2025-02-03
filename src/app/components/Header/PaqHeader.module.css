@@ -1,0 +1,50 @@
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-family: "Poppins Semibold", sans-serif;
+  padding: 1em 4em;
+}
+
+.itens {
+  display: flex;
+  gap: 30px;
+  align-items: center;
+  font-size: 1em;
+}
+
+.itens a {
+  transition: .5s;
+
+  &:hover {
+    transform: scale(.95);
+    color: rgb(39, 127, 241);
+  }
+}
+
+.btns {
+  display: flex;
+  gap: 20px;
+
+  &:hover {
+    color: red;
+  }
+}
+
+.como-apoiar {
+  color: red;
+}
+
+@media screen and (max-width: 768px) {
+  .container {
+    flex-wrap: wrap;
+  }
+
+  .container .containerButton .buttonDesktop {
+    display: none;
+  }
+
+  .container .containerButton .buttonMobile {
+    display: block;
+  }
+}
