@@ -67,6 +67,22 @@ body {
   overflow-x: hidden;
 }
 
+/* Scrollbar personalizada */
+
+body::-webkit-scrollbar {
+  width: 10px;
+}
+
+body::-webkit-scrollbar-track {
+  background: rgb(237, 237, 242);
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: rgb(33, 164, 225);
+  border-radius: 5px;
+}
+
+
 .submit-button {
   font-family: 'Poppins Bold', sans-serif;
 }

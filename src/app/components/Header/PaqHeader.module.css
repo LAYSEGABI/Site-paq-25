@@ -26,18 +26,14 @@
   display: flex;
   gap: 20px;
 
-  &:hover {
-    color: red;
-  }
-}
-
-.como-apoiar {
-  color: red;
 }
 
 @media screen and (max-width: 768px) {
   .container {
     flex-wrap: wrap;
+    justify-content: center;
+    padding: 1em;
+    gap: 20px;
   }
 
   .container .containerButton .buttonDesktop {
