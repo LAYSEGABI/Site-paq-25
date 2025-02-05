@@ -5,6 +5,7 @@
   z-index: 99;
   color: white;
   width: 100%;
+  
 }
 
 .container h2 {
@@ -83,8 +84,9 @@
   font-weight: 600;
 }
 
-@media (min-width: 1268px) {
+@media (min-width: 832px) {
   .container {
+    position: relative;
     margin-top: -460px;
     width: 100%;
   }
