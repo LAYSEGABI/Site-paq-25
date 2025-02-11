@@ -12,8 +12,8 @@
 
 .text_historias {
     display: flex;
-    width: 319px;
-    padding: 60px 0px;
+    width: 300px;
+    padding: 10px 0px;
     flex-direction: column;
     align-items: center;
     gap: 57px;
@@ -69,7 +69,7 @@
 .custom_arrows {
     display: flex;
     justify-content: center;
-    gap: 68px;
+    gap: 10px;
     user-select: none;
 }
 
