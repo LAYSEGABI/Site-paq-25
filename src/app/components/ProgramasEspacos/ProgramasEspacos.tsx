@@ -36,9 +36,13 @@ export default function ProgramasEspacos() {
   return (
     <section id="programas-e-espacos" className={styles.programSpaces}>
       <div className={styles.programHeader}>
-        <Image src={bookSvg} alt="Livro com óculos" id="bookIcon" />
-        <h2>PROGRAMAS</h2>
-        <h3>E ESPAÇOS</h3>
+        <div className={styles.programHeaderIcon}>
+          <Image src={bookSvg} alt="Livro com óculos" id="bookIcon" />
+          <div>
+            <h2>PROGRAMAS</h2>
+            <h3>E ESPAÇOS</h3>
+          </div>
+        </div>
         <p>
           Nossa metodologia é a parte mais importante e é com ela que
           conseguimos colocar no mundo o impacto que acreditamos.
