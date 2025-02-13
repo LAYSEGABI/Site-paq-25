@@ -57,13 +57,13 @@
    align-items: center;
    display: flex;
    flex-wrap: wrap;  /* Permite a quebra de linha */
-   gap: 16px;        /* Espaço entre os cards */
+   gap: 16px; 
    justify-content: space-between;
 }
 
 
 .programCards > div { 
-  width: calc(50% - 8px); /* 50% da largura menos o espaço do gap */
+  width: calc(50% - 8px); 
   
 }
 
