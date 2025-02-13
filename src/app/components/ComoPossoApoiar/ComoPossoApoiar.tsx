@@ -25,8 +25,8 @@ export default function ComoPossoApoiar() {
     >
       <Image
         src={check}
-        width={100}
-        height={300}
+        width={50}
+        height={200}
         alt="Ícone de verificação"
       />
       <h2>Como posso apoiar?</h2>
