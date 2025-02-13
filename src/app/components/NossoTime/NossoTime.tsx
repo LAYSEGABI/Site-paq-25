@@ -6,7 +6,7 @@ import NossoTimeCarrosel from "./NossoTimeCarrosel";
 export default function NossoTime() {
   return (
     <section className={styles.container}>
-      <Image src={ferramenta} width={74} height={74} alt="" />
+      <Image src={ferramenta} width={50} height={50} alt="" />
       <p className={styles.NossoTimeTitulo}>
         <strong>nosso time:</strong> linha de frente
       </p>

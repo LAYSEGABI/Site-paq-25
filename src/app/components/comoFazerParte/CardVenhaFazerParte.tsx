@@ -73,7 +73,7 @@ const CardContent1: React.FC = () => (
           <Button title='Quero ser educando' href='/' width='160px' height='45px' />
         </div>
       </div>
-      <Image src={anajulia} alt='' width={450} height={526} className='hidden lg:block aspect-auto object-cover rounded-2xl my-0' />
+      <Image src={anajulia} alt='' width={350} height={426} className='hidden lg:block aspect-auto object-cover rounded-2xl my-0' />
       <Image src={anajulia} alt='' width={270} height={333} className='hidden md:block aspect-auto object-cover rounded-2xl lg:hidden my-0' />
     </div>
     {/* Card Mobile */}
@@ -100,7 +100,7 @@ const CardContent2: React.FC = () => (
           <Button title='Quero ser mentor' href='/' width='160px' height='45px' />
         </div>
       </div>
-      <Image src={evanz} alt='' width={450} height={526} className='hidden lg:block aspect-auto object-cover rounded-2xl my-0' />
+      <Image src={evanz} alt='' width={350} height={426} className='hidden lg:block aspect-auto object-cover rounded-2xl my-0' />
       <Image src={evanz} alt='' width={270} height={333} className='hidden md:block aspect-auto object-cover rounded-2xl lg:hidden my-0' />
     </div>
     {/* Card Mobile */}
@@ -127,7 +127,7 @@ const CardContent3: React.FC = () => (
           <Button title='Quero ser voluntario' href='/' width='160px' height='45px' />
         </div>
       </div>
-      <Image src={costaspaq} alt='' width={450} height={526} className='hidden lg:block aspect-auto object-cover rounded-2xl my-0' />
+      <Image src={costaspaq} alt='' width={350} height={426} className='hidden lg:block aspect-auto object-cover rounded-2xl my-0' />
       <Image src={costaspaq} alt='' width={270} height={333} className='hidden md:block aspect-auto object-cover rounded-2xl lg:hidden my-0' />
     </div>
      {/* Card Mobile */}

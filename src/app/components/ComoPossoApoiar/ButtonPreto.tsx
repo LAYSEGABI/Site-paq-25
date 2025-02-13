@@ -1,6 +1,8 @@
 "use-client";
 
 import Link from "next/link";
+import styles from "./ButtonPreto.module.css";
+
 
 type Props = {
     title: string;
