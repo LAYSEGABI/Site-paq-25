@@ -15,7 +15,7 @@ export default async function PapelPAQ() {
     <section id="papel-do-paq" className={style.papelPaq}>
       <div className={style.separacao_text}>
         <article className={style.conteudo_text}>
-          <Image src={lampada} className={style.iconelampada} width={87.43} height={80.86} alt="imagem de lampada simbolizando ideia" />
+          <Image src={lampada} className={style.iconelampada} width={100} height={90} alt="imagem de lampada simbolizando ideia" />
           <h2>Comunidade de aprendizagem</h2>
         </article>
         <div className={style.textPaqFortalece}>
