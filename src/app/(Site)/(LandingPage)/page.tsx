@@ -7,6 +7,7 @@ import PapelPAQ from "@/app/components/PapelPaq/PapelPAQ";
 import UnidadesEspacos from "@/app/components/UnidadesEspacos/UnidadesEspacos";
 import JuntoComAGente from "@/app/components/JuntoComAGente/JuntoComAGente";
 import ComoFazerParte from "@/app/components/comoFazerParte/ComoFazerParte";
+import ExperienciasAprendizado from "@/app/components/ExperienciasAprendizado/ExperienciasAprendizado";
 import ComoPossoFazerParte from "@/app/components/ComoPossoApoiar/ComoPossoApoiar";
 import Contact from "@/app/components/Contact";
 import { ToastContainer } from "react-toastify";
@@ -26,6 +27,7 @@ export default function Home() {
       <ProgramasEspacos />
       <UnidadesEspacos />
       <Impaqtrometro />
+      <ExperienciasAprendizado />
       <JuntoComAGente />
       <Depoimentos />
       <NossoTime />
