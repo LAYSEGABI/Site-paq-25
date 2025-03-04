@@ -54,13 +54,13 @@ export default function Depoimentos() {
           slidesPerView={1.6}
           breakpoints={{
             900: {
-              slidesPerView: 2,
+              slidesPerView: 3,
             },
             1024: {
               slidesPerView: 3,
             },
             1150: {
-              slidesPerView: 4,
+              slidesPerView: 3.6,
             },
             1280: {
               slidesPerView: 3.8,

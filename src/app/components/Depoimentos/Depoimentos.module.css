@@ -4,8 +4,10 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    padding-bottom: 107px;
+    padding: 4rem 0;
+    box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.541);
 }
+
 .carrossel {
     width: 100%;
 }
@@ -16,7 +18,7 @@
     padding: 10px 0px;
     flex-direction: column;
     align-items: center;
-    gap: 57px;
+    gap: 30px;
     margin: 0 auto;
 }
 
@@ -24,18 +26,17 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 31px;
+    gap: 15px;
 }
 
 .text_paragrafoEimg {
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 12px;
 }
 
 .text_paragrafoEimg p {
-    color: #FFF;
+    color: #ffffff;
     text-align: center;
     font-family: Poppins;
     font-size: 1em;
@@ -43,6 +44,7 @@
     font-weight: 400;
     letter-spacing: -0.01rem;
     width: 500px;
+    padding-bottom: 2.5rem;
 }
 
 .imgETitulo {
@@ -80,13 +82,18 @@
 }
 
 @media (max-width:768px) {
-    .custom_arrows{
+    .custom_arrows {
         display: none;
     }
 }
 
 
 @media (min-width:320px) and (max-width:740px) {
+
+    .container {
+        padding: 1rem 0;
+    }
+
     .text_historias {
         display: flex;
         width: 319px;
@@ -120,20 +127,23 @@
 
     .imgETitulo {
         display: flex;
-        width: 203px;
-        height: 184px;
+        width: 100%;
         flex-direction: column;
         justify-content: center;
         align-items: center;
         gap: 20px;
         flex-shrink: 0;
+
+        &:first-child {
+            width: 60px;
+        }
     }
 
     .imgETitulo h3 {
-        color: #FFF;
+        color: #ffffff;
         text-align: center;
         font-family: "PP Formula Condensed";
-        font-size: 37.405px;
+        font-size: 2rem;
         font-style: normal;
         font-weight: 700;
         line-height: 40px;
@@ -145,6 +155,7 @@
         width: 254px;
         color: #FFF;
         text-align: center;
+        padding-bottom: 0;
         font-family: Poppins;
         font-size: 12px;
         font-style: normal;
