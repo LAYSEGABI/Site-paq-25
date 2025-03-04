@@ -4,6 +4,7 @@ import UmFuturoInovadorDiversoComecaAqui from "@/app/components/UmFuturoInovador
 import Impaqtrometro from "@/app/components/Impactometro/Impaqtrometro";
 import Depoimentos from "@/app/components/Depoimentos/Depoimentos"
 import PapelPAQ from "@/app/components/PapelPaq/PapelPAQ";
+import UnidadesEspacos from "@/app/components/UnidadesEspacos/UnidadesEspacos";
 import JuntoComAGente from "@/app/components/JuntoComAGente/JuntoComAGente";
 import ComoFazerParte from "@/app/components/comoFazerParte/ComoFazerParte";
 import ComoPossoFazerParte from "@/app/components/ComoPossoApoiar/ComoPossoApoiar";
@@ -23,6 +24,7 @@ export default function Home() {
       <ConectarETransformar />
       <PapelPAQ />
       <ProgramasEspacos />
+      <UnidadesEspacos />
       <Impaqtrometro />
       <JuntoComAGente />
       <Depoimentos />

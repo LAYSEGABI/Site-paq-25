@@ -36,7 +36,7 @@ export default function Depoimentos() {
           <div className={style.text_paragrafoEimg}>
             <div className={style.imgETitulo}>
               <Image src={Medalha} width={85.58} height={84} alt="" />
-              <h3>Histórias de quem já viveu!</h3>
+              <h3>Histórias de quem <br className={style.imgETituloh3}/> já viveu!</h3>
             </div>
             <p>A transformação começa aqui. Veja o que as pessoas têm a dizer sobre suas experiências dentro do PAQ.</p>
           </div>
