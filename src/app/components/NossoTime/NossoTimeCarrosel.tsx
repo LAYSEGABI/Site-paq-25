@@ -56,8 +56,8 @@ const NossoTimeCarrosel: React.FC = () => {
             <Image
               src={member.src}
               alt={`Imagem ${index + 1}`}
-              width={200}
-              height={200}
+              width={150}
+              height={150}
             />
             <h2 className={styles.CardsNossoTimeNome}>{member.nome}</h2>
             <p className={styles.CardsNossoTimeCargo}>{member.cargo}</p>

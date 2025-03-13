@@ -8,7 +8,7 @@ export default function NossoTime() {
     <section className={styles.container}>
       <Image src={ferramenta} width={50} height={50} alt="" />
       <p className={styles.NossoTimeTitulo}>
-        <strong>nosso time:</strong> linha de frente
+        <strong>nosso time:</strong> <br /> linha de frente
       </p>
       <NossoTimeCarrosel />
     </section>

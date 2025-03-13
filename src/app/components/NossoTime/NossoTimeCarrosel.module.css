@@ -4,10 +4,11 @@
   flex-direction: column;
   align-items: center;
   margin-top: 1em;
+  padding: 0 3rem;
   overflow-x: hidden;
 }
 
-.container>nav {
+.container > nav {
   display: flex;
   gap: 1rem;
   margin-bottom: 2rem;
@@ -48,52 +49,50 @@
 
 .containerTime {
   display: flex;
-  max-width: 100%;
-  margin-bottom: 2em;
-  gap: 2.5em;
+  flex-wrap: wrap; /* Permite a quebra para novas linhas */
+  justify-content: center; /* Alinha os itens ao centro */
+  gap: 2em;
   padding: 1rem;
-  align-items: center;
-  overflow-x: auto;
+  margin-bottom: 2em;
+  max-width: 100%;
 }
 
 .cardPessoa {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
   background-color: var(--fundocinza);
-  flex: none;
+  flex: 0 1 auto; /* Flexível, mas com largura mínima de 200px */
   border-radius: 27px;
-  margin-bottom: 1em;
+  text-align: center; /* Centraliza o conteúdo dentro do card */
 }
 
-.cardPessoa:first-child {
-  margin-left: 4rem;
-}
-
-.cardPessoa>img {
+.cardPessoa > img {
   aspect-ratio: auto;
   border-radius: 27px;
+  max-width: 100%; /* Garante que a imagem não ultrapasse a largura do card */
 }
 
 .CardsNossoTimeNome {
   color: #00171F;
   text-align: center;
   font-family: "PP Formula Condensed";
-  font-size: 32.492px;
+  font-size: 26px;
   font-weight: 700;
   line-height: 20.308px;
-  /* 62.5% */
   letter-spacing: 0.65px;
   text-transform: uppercase;
   margin: 20px 0 10px 0;
-
 }
 
 .CardsNossoTimeCargo {
   color: #00171F;
   text-align: center;
   font-family: "PP Formula Condensed";
-  font-size: 20.308px;
+  font-size: 18px;
   font-weight: 400;
   line-height: 20.308px;
-  /* 100% */
   letter-spacing: 0.406px;
 }
 
@@ -101,34 +100,32 @@
   .cardPessoa:first-child {
     margin-left: 1.5rem;
   }
-}
 
-@media (min-width: 1536px) {
   .containerTime {
-    overflow-x: hidden;
-    flex-wrap: wrap;
-    justify-content: center;
+    gap: 3rem; /* Ajusta o espaçamento para telas grandes */
   }
 }
 
+@media (max-width: 546px) {
 
-/* Personaliza a barra de rolagem */
-.containerTime::-webkit-scrollbar {
-  width: 10px;
-  height: 10px;
-}
+  .container {
+    padding: 0;
+  }
+  .containerTime {
+    gap: 1rem;
+  }
+  
+  .cardPessoa {
+    width: 120px;
 
-.containerTime::-webkit-scrollbar-track {
-  background: #dce1e4;
-  border-radius: 10px;
-  width: 70%;
-}
+  }
+  .cardPessoa > img {
+    width: 100px;
+  }
 
-.containerTime::-webkit-scrollbar-thumb {
-  background: #4596e2;
-  border-radius: 10px;
-}
+  .CardsNossoTimeCargo {
+    font-size: 14px;
 
-.containerTime::-webkit-scrollbar-thumb:hover {
-  background: #0790cf;
+  }
+  
 }
