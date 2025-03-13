@@ -70,7 +70,8 @@
 
 .cardPessoa > img {
   aspect-ratio: auto;
-  border-radius: 27px;
+  border-radius: 5px 27px;
+  background-size: cover;
   max-width: 100%; /* Garante que a imagem não ultrapasse a largura do card */
 }
 
@@ -80,7 +81,7 @@
   font-family: "PP Formula Condensed";
   font-size: 26px;
   font-weight: 700;
-  line-height: 20.308px;
+  line-height: 25.308px;
   letter-spacing: 0.65px;
   text-transform: uppercase;
   margin: 20px 0 10px 0;
