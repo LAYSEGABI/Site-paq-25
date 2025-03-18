@@ -1,6 +1,8 @@
 .container {
   display: flex;
-  width: 850px;
+  width: 700px;
+  align-items: center;
+  justify-content: center;
   background-color: #fff;
   border-radius: 1rem;
   justify-content: space-between;

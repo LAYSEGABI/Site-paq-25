@@ -16,7 +16,7 @@ export default function ButtonPreto({ title, href, width, height, newTab }: Prop
     return (
         <Link
             href={href}
-            className={`font-poppins flex items-center justify-center rounded-[10px] bg-preto text-base text-white font-semibold`}
+            className={styles.btn}
             type="button"
             target={newTab ? "_blank" : "_self"}
             style={{ width: width, height: height }}
