@@ -11,6 +11,8 @@ import { list } from "postcss";
 export default function PaqHeader() {
 
   return (
+
+    
     <div className={style.container}>
       <div className={style.itens}>
         <Image src={logoPaq} alt="Logo PAQ" width={35} height={35} />
