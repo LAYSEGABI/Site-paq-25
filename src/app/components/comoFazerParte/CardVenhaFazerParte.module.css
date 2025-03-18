@@ -1,14 +1,33 @@
+.FazerparteContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(228, 237, 255);
+    border-radius: 5px 50px;
+    overflow: hidden;
+}
+
+.textinhofazerparteContainer {
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+    gap: 1.5rem;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+
 .titulocardfazerparte {
-    color: #1EB4E9;
+    color: #1c88e0;
     font-family: "PP Formula Condensed";
     height: auto;
     font-size: 50px;
     font-style: normal;
     font-weight: 700;
-    line-height: 75px;
+    line-height: 45px;
     letter-spacing: 1.4px;
     text-transform: uppercase;
     text-align: left;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.185);
 }
 
 .textinhofazerparte {
@@ -18,10 +37,10 @@
     font-style: normal;
     font-weight: 400;
     line-height: 16px;
-    /* 125% */
     letter-spacing: -0.158px;
     text-align: left;
 }
+
 
 .containerButtons {
     display: flex;

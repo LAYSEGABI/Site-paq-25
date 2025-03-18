@@ -12,12 +12,16 @@
 
 .impaqtometroHeader {
     display: flex;
+    flex-direction: column;
     align-items: center;
     gap: 20px;
-    padding: 3em;
+    padding-bottom: 3em;
     margin: auto;
 }
 
+.impaqtometroHeader > img {
+    width: 50px;
+}
 .impaqtometroCards {
     display: flex;
     flex-wrap: wrap;

@@ -9,7 +9,7 @@
   clip-path: polygon(0 0, 100% 5%, 100% 100%, 0 100%);
 }
 
-.container > h2 {
+.container>h2 {
   color: #fff;
   font-family: "PP Formula Condensed";
   font-size: 3em;
@@ -43,8 +43,21 @@
   font-family: Poppins;
   font-size: 24px;
   font-style: bolder;
-  line-height: 28px; /* 116.667% */
+  line-height: 28px;
+  /* 116.667% */
   letter-spacing: -0.24px;
+}
+
+.apoioFinanceiro {
+  width: 850px;
+  background-color: #e2e4eb;
+  margin: 20px 0;
+  font-size: 1rem;
+  font-weight: bolder;
+  color: rgb(7, 6, 14);
+  border-radius: 20px;
+  padding: 30px;
+
 }
 
 @media (max-width: 768px) {
@@ -52,13 +65,8 @@
     font-size: 16px;
     line-height: 28px;
   }
-}
 
-div .apoioFinanceiro {
-  background-color: #030a2e;
-  margin: 40px 0;
-  font-size: 1em;
-  color: white;
-  border-radius: 20px;
-  padding: 30px;
+  .apoioFinanceiro {
+    width: 100%;
+  }
 }
