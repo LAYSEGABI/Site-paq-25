@@ -4,6 +4,9 @@
   justify-content: space-between;
   font-family: "Poppins Semibold", sans-serif;
   padding: 1em 4em;
+  z-index: 100;
+  background: linear-gradient(to bottom, #14141409, #15171a2d);
+
 }
 
 .itens {
