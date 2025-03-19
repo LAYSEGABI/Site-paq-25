@@ -1,25 +1,33 @@
 "use client";
 
-import Image from "next/image";
-import imagemSetaAbaixo from "./img/setaAbaixo.svg";
+import { useEffect, useRef } from "react";
 import styles from "./banner.module.css";
-import history from "./NossaHistoria.module.css";
-import { useState } from "react";
-
-import imgBack1 from "./img/ALANA-XP-113 2.png";
-import imgBack2 from "./img/VISITA SOHO-2 3.png";
-import imgBack3 from "./img/history_3.jpg";
-
 
 const Banner = () => {
-  const [isOpen, setIsOpen] = useState(false);
+  // Defina a referência como HTMLVideoElement
+  const videoRef = useRef<HTMLVideoElement>(null);
+
+  useEffect(() => {
+    const handleVisibilityChange = () => {
+      if (document.visibilityState === "visible" && videoRef.current) {
+        // Garante que o vídeo continue tocando
+        videoRef.current.play().catch((error) => {
+          console.log("Erro ao tentar retomar o vídeo:", error);
+        });
+      }
+    };
+
+    document.addEventListener("visibilitychange", handleVisibilityChange);
+    return () => {
+      document.removeEventListener("visibilitychange", handleVisibilityChange);
+    };
+  }, []);
 
   return (
     <div className={styles.banner}>
       {/* Vídeo de fundo */}
-      <video autoPlay loop muted className={styles.videoBackground}>
-      <source src="/videoBack.mp4" type="video/mp4" />
-
+      <video ref={videoRef} autoPlay loop muted className={styles.videoBackground}>
+        <source src="/videoBack.mp4" type="video/mp4" />
         Seu navegador não suporta vídeos.
       </video>
 

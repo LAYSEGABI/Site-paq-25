@@ -15,7 +15,7 @@ export default function PaqHeader() {
     
     <div className={style.container}>
       <div className={style.itens}>
-        <Image src={logoPaq} alt="Logo PAQ" width={35} height={35} />
+        <Image src={logoPaq} alt="Logo PAQ" width={45} height={45} />
         <a href="#quem-somos">QUEM SOMOS</a>
         <a href="#papel-do-paq">O QUE FAZEMOS</a>
         <a href="#juntoComAGente"> QUEM FAZ PARTE</a>
