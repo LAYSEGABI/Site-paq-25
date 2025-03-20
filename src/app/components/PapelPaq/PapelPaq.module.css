@@ -6,9 +6,8 @@
     display: flex;
     align-items: center;
     flex-direction: column;
-    border-radius: 10em 0;
-    background: #DEF5FC;
-    padding: 2.5rem;
+    background: #fafafa;
+    padding-top: 2.5rem;
 }
 
 .separacao_text {
@@ -42,7 +41,7 @@
     align-items: center;
     width: 300px;
 
-    
+
 }
 
 
@@ -86,18 +85,21 @@
     width: 100%;
 }
 
+.card {
+    background-color: #031c3d;
+    border: 2px solid #DEF5FC;
+    justify-content: center;
+    align-items: flex-start;
+}
+
 .card1 {
     height: 15.32625rem;
     display: flex;
     width: 12.253rem;
     transform: rotate(-1.48deg);
     padding: 0.75rem 0.67656rem;
-    justify-content: center;
-    align-items: flex-start;
     gap: 0.75169rem;
     border-radius: 0.451rem;
-    border: 2px solid #DEF5FC;
-    background: #0DA2D2;
 }
 
 .conteudocard1 {
@@ -168,8 +170,7 @@
     justify-content: center;
     align-items: flex-start;
     border-radius: 0.451rem;
-    border: 2px solid #DEF5FC;
-    background: #0DA2D2;
+ 
 }
 
 .iconetitulo2 {
@@ -230,11 +231,6 @@
     display: flex;
     transform: rotate(-1.48deg);
     padding: 0.75rem 0.67656rem;
-    justify-content: center;
-    align-items: flex-start;
-    border-radius: 0.451rem;
-    border: 2px solid #DEF5FC;
-    background: #0DA2D2;
 }
 
 .conteudocard3 {
@@ -304,12 +300,7 @@
     height: 240.32px;
     transform: rotate(1.837deg);
     padding: 0.75rem 0.67656rem;
-    justify-content: center;
-    align-items: flex-start;
     gap: 0.75169rem;
-    border-radius: 0.451rem;
-    border: 2px solid #DEF5FC;
-    background: #0DA2D2;
 }
 
 .conteudocard4 {
@@ -730,12 +721,12 @@
 
     .carrossel {
         display: grid;
-        grid-template-columns: repeat(2, 1fr); 
+        grid-template-columns: repeat(2, 1fr);
         gap: 30px;
         width: 100%;
         justify-content: center;
         align-items: center;
-     
+
     }
 
     .container_img_e_card {

@@ -28,7 +28,7 @@ export default async function PapelPAQ() {
 
 
           <div className={style.container_img_e_card}>
-            <div className={style.card1}>
+            <div className={`${style.card1} ${style.card}`}>
               <div className={style.conteudocard1}>
                 <div className={style.iconetitulo1}>
                   <Image src={iconLike} width={0} height={0} alt="icone de like" className={style.iconeCard1} />
@@ -44,7 +44,7 @@ export default async function PapelPAQ() {
 
           <div className={style.container_img_e_card}>
             <Image src={img2} alt="imagem de educandos debatendos" className={style.img_carrossel} />
-            <div className={style.card2}>
+            <div className={`${style.card2} ${style.card}`}>
               <div className={style.conteudocard2}>
                 <div className={style.iconetitulo2}>
                   <Image src={iconSave} width={0} height={0} className={style.iconeCard2} alt={"icone de brilho"} />
@@ -59,7 +59,7 @@ export default async function PapelPAQ() {
 
           <div className={style.container_img_e_card}>
            
-            <div className={style.card3}>
+            <div className={`${style.card3} ${style.card}`}>
               <div className={style.conteudocard3}>
                 <div className={style.iconetitulo3}>
                   <Image src={iconShining} alt="iconde de salvar" className={style.iconeCard3} />
@@ -75,7 +75,7 @@ export default async function PapelPAQ() {
 
           <div className={style.container_img_e_card}>
             <Image src={img4} alt="imagem de educandos na Acate" className={style.img_carrossel} />
-            <div className={style.card4}>
+            <div className={`${style.card4} ${style.card}`}>
               <div className={style.conteudocard4}>
                 <div className={style.iconetitulo4}>
                   <Image src={iconPin} alt="icone de pin" className={style.iconeCard4} />

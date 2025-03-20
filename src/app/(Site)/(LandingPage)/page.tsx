@@ -5,17 +5,17 @@ import Banner from "@/app/components/Banner/banner";
 import Impaqtrometro from "@/app/components/Impactometro/Impaqtrometro";
 import Depoimentos from "@/app/components/Depoimentos/Depoimentos"
 import PapelPAQ from "@/app/components/PapelPaq/PapelPAQ";
-import UnidadesEspacos from "@/app/components/UnidadesEspacos/UnidadesEspacos";
+//import UnidadesEspacos from "@/app/components/UnidadesEspacos/UnidadesEspacos";
 import JuntoComAGente from "@/app/components/JuntoComAGente/JuntoComAGente";
 import ComoFazerParte from "@/app/components/comoFazerParte/ComoFazerParte";
-import ExperienciasAprendizado from "@/app/components/ExperienciasAprendizado/ExperienciasAprendizado";
+//import ExperienciasAprendizado from "@/app/components/ExperienciasAprendizado/ExperienciasAprendizado";
 import ComoPossoFazerParte from "@/app/components/ComoPossoApoiar/ComoPossoApoiar";
 import Contact from "@/app/components/Contact";
 import { ToastContainer } from "react-toastify";
 import Footer from "@/app/components/Footer";
 import NossoTime from "@/app/components/NossoTime/NossoTime";
 import ProgramasEspacos from "@/app/components/ProgramasEspacos/ProgramasEspacos";
-import UmFuturoDiversoDesktop from "@/app/components/UmFuturoDiversoDesktop";
+
 
 export default function Home() {
   return (
@@ -24,9 +24,7 @@ export default function Home() {
       <Banner />
       <PapelPAQ />
       <ProgramasEspacos />
-      <UnidadesEspacos />
       <Impaqtrometro />
-      <ExperienciasAprendizado />
       <JuntoComAGente />
       <Depoimentos />
       <NossoTime />
