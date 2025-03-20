@@ -1,7 +1,7 @@
 import PaqHeader from "@/app/components/Header/PaqHeader";
 import Banner from "@/app/components/Banner/banner";
-import ConectarETransformar from "@/app/components/ConectarETransformar";
-import UmFuturoInovadorDiversoComecaAqui from "@/app/components/UmFuturoInovadorDiversoComecaAqui";
+//import ConectarETransformar from "@/app/components/ConectarETransformar";
+//import UmFuturoInovadorDiversoComecaAqui from "@/app/components/UmFuturoInovadorDiversoComecaAqui";
 import Impaqtrometro from "@/app/components/Impactometro/Impaqtrometro";
 import Depoimentos from "@/app/components/Depoimentos/Depoimentos"
 import PapelPAQ from "@/app/components/PapelPaq/PapelPAQ";
@@ -22,9 +22,6 @@ export default function Home() {
     <>
       <PaqHeader />
       <Banner />
-      <UmFuturoDiversoDesktop />
-      <UmFuturoInovadorDiversoComecaAqui />
-      <ConectarETransformar />
       <PapelPAQ />
       <ProgramasEspacos />
       <UnidadesEspacos />

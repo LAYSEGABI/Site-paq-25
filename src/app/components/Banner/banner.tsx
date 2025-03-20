@@ -36,8 +36,8 @@ const Banner = () => {
         <h2>CONECTAR E TRANSFORMAR!</h2>
         <h3>
           Somos o <br />
-          <strong>Prototipando a Quebrada, </strong>
-          mas pode chamar de <strong>PAQ!</strong>
+          <strong>Prototipando a Quebrada</strong>
+        , mas pode chamar de <strong>PAQ!</strong>
         </h3>
         <p>
           Nossa missão é <strong>conectar a juventude da periferia</strong> ao

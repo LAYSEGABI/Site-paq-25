@@ -7,7 +7,7 @@
   padding: 1em 4em;
   z-index: 999;
   color: rgba(255, 255, 255, 0.911);
-  background: linear-gradient(to bottom, #141414d0, #15171a00);
+  background: linear-gradient(to bottom, #141414fa, #15171a02);
 
 }
 
@@ -18,38 +18,64 @@
   font-size: 1em;
 }
 
+.itensNav {
+  display: flex;
+  gap: 50px;
+  margin-left: 2rem;
+}
+
 .itens > img {
-  width: 30px;
+  width: 60px;
 }
-
 .itens a {
-  transition: .5s;
+  transition: 0.5s;
   color: white;
-
-  &:hover {
-    transform: scale(.95);
-    color: rgb(39, 127, 241);
-  }
+  position: relative; /* Necessário para que o ::before seja posicionado corretamente */
+  display: inline-block; /* Permite que o ::before tenha largura */
 }
+
+.itens a::before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 2px;
+  border-radius: 5px;
+  bottom: -5px; /* Ajusta a posição para ficar mais visível */
+  left: 0;
+  background-color: var(--azul-paq);
+  visibility: hidden;
+  transform: scaleX(0);
+  transition: all 0.3s ease-in-out;
+}
+
+.itens a:hover {
+  color: rgb(255, 255, 255);
+}
+
+.itens a:hover::before {
+  visibility: visible;
+  transform: scaleX(1);
+}
+
 
 .btns {
   display: flex;
   gap: 20px;
 }
 
-.btns > button {
+.btns > * {
   display: flex;
   gap: 20px;
   transition: .5s;
-
-  &:hover {
-    background-color: #66cdf3;
-    transform: translateY(-5px);
-    box-shadow: 0px 5px 10px rgba(15, 154, 218, 0.274);
-
-  }
+  background-color: var(--azul-paq);
 }
 
+.btns > *:hover {
+    background-color: #2780c9;
+    transform: translateY(-3px);
+    box-shadow: 0px 5px 17px rgba(1, 11, 14, 0.733);
+
+}
 
 @media screen and (max-width: 768px) {
   .container {
