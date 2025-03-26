@@ -7,6 +7,14 @@
 @tailwind utilities;
 
 @font-face {
+  font-family: "NetworkFreeVersion";
+  src: url("../../public/fonts/NetworkFreeVersion.ttf") format("truetype"); 
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+@font-face {
   font-family: "PP Formula Condensed";
   src: url("/fonts/PPFormulaCondensed-Regular.otf");
 }

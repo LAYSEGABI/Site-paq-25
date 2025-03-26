@@ -40,7 +40,6 @@
   font-size: 1.6rem;
   font-weight: bold;
   margin-bottom: 10px;
-  color: rgb(174, 215, 236);
   border-right: 2px solid rgba(255, 255, 255, 0.75);
   animation: blinkCursor 1s steps(25) infinite normal,
     typing 2.5s steps(25) 1s normal both;
@@ -62,6 +61,33 @@
   line-height: 1.5;
   margin-top: 1rem;
   color: rgba(255, 255, 255, 0.808);
+}
+
+.content a {
+  margin-top: 1rem;
+  border: 2px solid var(--azul-paq);
+  display: flex;
+  border-radius: 10px;
+  background-color: rgba(0, 0, 0, 0.253);
+  align-items: center;
+  padding: .5rem 1rem;
+  font-weight: 400;
+  width: fit-content;
+  justify-content: center;
+  gap: 10px;
+  transition: .5s;
+
+
+  &:hover {
+    background-color: rgba(0, 140, 255, 0.151);
+  }
+}
+
+.content a svg {
+  width: 20px;
+  fill: var(--azul-paq);
+  transform: rotate(40deg);
+
 }
 
 @keyframes typing {
