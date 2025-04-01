@@ -27,7 +27,7 @@ const Banner = () => {
     <div className={styles.banner}>
       {/* Vídeo de fundo */}
       <video ref={videoRef} autoPlay loop muted className={styles.videoBackground}>
-        <source src="/videoBack.mp4" type="video/mp4" />
+        <source src="/videoBackCorte.mp4" type="video/mp4" />
         Seu navegador não suporta vídeos.
       </video>
 
