@@ -25,10 +25,10 @@ export default function Home() {
       <PapelPAQ />
       <ProgramasEspacos />
       <Impaqtrometro />
-      <JuntoComAGente />
-      <Depoimentos />
       <NossoTime />
+      <JuntoComAGente />
       <ComoFazerParte />
+      <Depoimentos />
       <ComoPossoFazerParte />
       <Contact />
       <ToastContainer position="bottom-center" />
