@@ -50,9 +50,9 @@ const NossoTimeCarrosel: React.FC = () => {
           Conselhos
         </Button>
       </nav>
-      <div className={styles.containerTime}>
+      <div className={styles.containerTime} >
         {team[selectedButton].map((member, index) => (
-          <div key={index} className={styles.cardPessoa}>
+          <div key={index} className={styles.cardPessoa} >
             <Image
               src={member.src}
               alt={`Imagem ${index + 1}`}

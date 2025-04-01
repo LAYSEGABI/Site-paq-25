@@ -4,7 +4,7 @@ import Image from "next/image";
 import Button from "../button";
 import Menu from "../Menu/Menu"
 import style from "./PaqHeader.module.css";
-import logoPaq from "./img/logo-paq.png";
+import logoPaq from "./img/logo-paq-escuro.png";
 //import { list } from "postcss";
 
 

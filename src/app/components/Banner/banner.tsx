@@ -32,7 +32,7 @@ const Banner = () => {
       </video>
 
       {/* Conteúdo do banner */}
-      <div className={styles.content}>
+      <div className={styles.content} >
         <h2>CONECTAR E TRANSFORMAR!</h2>
         <h3>
           Somos o <br />

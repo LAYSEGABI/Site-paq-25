@@ -10,6 +10,7 @@ import investidor from "./img/investidor1.png";
 import anajulia from "./img/anaju.png";
 import Tedd from "./img/Tedd.png";
 import william from "./img/William.png";
+import { useEffect, useState } from "react";
 import suanam from "./img/suanamecaio.png";
 import formados from './img/grupoDePessoasFormadas.png'
 import styles from "./impaqtrometro.module.css";
@@ -17,8 +18,9 @@ import styles from "./impaqtrometro.module.css";
 console.log(styles.ImpaqtrometroTitulo);
 
 export default function Impaqtrometro() {
+
   return (
-    <div className={styles.container}>
+    <div className={styles.container} >
       <section id="impaqtometro">
         <GlobalStyle />
         <div className={styles.impaqtometroHeader}>
@@ -31,7 +33,7 @@ export default function Impaqtrometro() {
           </h2>
         </div>
         <div className={styles.impaqtometroCards}>
-          <div className={styles.impaqtometroCard}>
+          <div className={styles.impaqtometroCard} data-anima="centro">
             <CardImpaqtrometro
               image={grupoDePessoas}
               numero="80"
@@ -44,7 +46,7 @@ export default function Impaqtrometro() {
               className="ImpaqtometroImagem"
             />
           </div>
-          <div className={styles.impaqtometroCard}>
+          <div className={styles.impaqtometroCard} data-anima="cima">
             <Image
               src={Tedd}
               alt=""
@@ -59,7 +61,7 @@ export default function Impaqtrometro() {
               descricao="Atendidos em nossos programas"
             />
           </div>
-          <div className={styles.impaqtometroCard}>
+          <div className={styles.impaqtometroCard} data-anima="centro">
             <CardImpaqtrometro
               image={voluntariado}
               numero="40"
@@ -74,7 +76,7 @@ export default function Impaqtrometro() {
             />
            
           </div>
-          <div className={styles.impaqtometroCard}>
+          <div className={styles.impaqtometroCard} data-anima="cima">
             <Image
               src={suanam}
               alt=""
@@ -118,6 +120,10 @@ export default function Impaqtrometro() {
           </div>
         </footer>
       </section>
+
+      
     </div>
   );
 }
+
+
