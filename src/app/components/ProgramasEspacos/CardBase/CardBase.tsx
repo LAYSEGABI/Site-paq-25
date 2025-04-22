@@ -22,7 +22,7 @@ export default function CardBase(props: AccordionCardProps) {
   return (
     <>
       {!isOpen && (
-        <div className={style.cardContainer}>
+        <div className={style.cardContainer} >
           <div className={style.cardContent}>
             <div className={style.cardContentDescription}>
               <div className={style.cardTitle}>{props.title}</div>

@@ -6,7 +6,7 @@
     display: flex;
     align-items: center;
     flex-direction: column;
-    background: #fafafa;
+    background: #ffffff;
     padding-top: 2.5rem;
 }
 
@@ -86,7 +86,8 @@
 }
 
 .card {
-    background-color: #031c3d;
+    background: #010e14;
+background: linear-gradient(0deg, rgba(1, 14, 20, 1) 2%, rgb(7, 35, 61) 47%, rgb(15, 60, 97) 100%);
     border: 2px solid #DEF5FC;
     justify-content: center;
     align-items: flex-start;

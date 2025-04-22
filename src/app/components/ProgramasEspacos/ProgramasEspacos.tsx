@@ -68,7 +68,7 @@ export default function ProgramasEspacos() {
         
       </div>
 
-      <div className={styles.programCards}>
+      <div className={styles.programCards} data-anima="centro">
         <CardBase
           title="IMERSÃO"
           content="Primeiros passos para explorar as carreiras cultura do ecossistema de tecnologia,

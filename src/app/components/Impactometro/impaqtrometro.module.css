@@ -14,18 +14,22 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 20px;
     padding-bottom: 3em;
     margin: auto;
 }
 
 .impaqtometroHeader > img {
     width: 50px;
+    margin-bottom: 20px;
 }
 
 .impaqtometroHeader > h2 {
     font-size: 2rem;
     letter-spacing: 3px;
+}
+
+.impaqtometroHeader > p {
+    color: rgba(255, 255, 255, 0.822);
 }
 
 .impaqtometroCards {

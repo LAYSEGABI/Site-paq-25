@@ -31,6 +31,7 @@ export default function Impaqtrometro() {
             </span>
             <br />O IMPACTO REAL
           </h2>
+          <p>Dados 2024</p>
         </div>
         <div className={styles.impaqtometroCards}>
           <div className={styles.impaqtometroCard} data-anima="centro">
@@ -56,15 +57,15 @@ export default function Impaqtrometro() {
            
             <CardImpaqtrometro
               image={formados}
-              numero="200"
+              numero="500"
               titulo="jovens"
-              descricao="Atendidos em nossos programas"
+              descricao="Impactados em nossos programas"
             />
           </div>
           <div className={styles.impaqtometroCard} data-anima="centro">
             <CardImpaqtrometro
               image={voluntariado}
-              numero="40"
+              numero="50%"
               titulo="jovens"
               descricao="Trabalhando em empresas de tecnologia"
             />
@@ -117,6 +118,15 @@ export default function Impaqtrometro() {
               height="42px"
               newTab
             />
+            <Button
+              title="MANIFESTO"
+              href=""
+              width="150px"
+              height="42px"
+              newTab
+            />
+
+            
           </div>
         </footer>
       </section>

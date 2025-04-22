@@ -3,6 +3,7 @@
   flex-direction: column;
   align-items: center;
   margin: 2em 0;
+  background-color: red;
 }
 
 .container>h2 {
