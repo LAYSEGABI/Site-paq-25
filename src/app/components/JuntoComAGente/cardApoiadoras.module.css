@@ -22,6 +22,7 @@
 
 
 .grid {
+  overflow: hidden;
   display: flex;
   gap: 3rem;
   animation: scroll 10s linear infinite;

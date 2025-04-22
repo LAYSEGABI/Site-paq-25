@@ -3,17 +3,17 @@
   width: 100%;
   margin-top: -90px;
   height: 104vh;
-  /* Ocupa toda a tela */
+  padding-left: 4rem;
+
   overflow: hidden;
   display: flex;
   align-items: center;
   justify-content: flex-start;
   text-align: left;
+
   color: white;
   box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.541);
   background: linear-gradient(to right, rgba(0, 0, 0, 0.87) 20%, rgba(0, 0, 0, 0.3) 60%, rgba(0, 0, 0, 0) 100%);
-  padding-left: 4rem;
-  /* Dá um espaçamento na esquerda */
 }
 
 .videoBackground {
@@ -110,27 +110,24 @@
   }
 }
 
-@media (max-width:800px) {
+@media (max-width: 900px) {
   .banner {
-    height: 50vw;
+    margin-top: -140px;
+    height: 70vh;
+    padding: 6rem 2rem;
+    text-align: center;
+    padding-top: 140px;
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.87) 20%, rgba(0, 0, 0, 0.356) 60%, rgba(0, 0, 0, 0.233) 100%);
+
   }
 
-  .content h2 {
-    font-size: 1rem;
-  }
-
-  .content h3 {
-    font-size: 2rem;
-  }
-
-  .content p {
-    font-size: 1rem;
-  }
-}
-
-@media (max-width:500px) {
-  .banner {
-    height: 50vw;
+  .content {
+    max-width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: .5rem;
   }
 
   .content h2 {
