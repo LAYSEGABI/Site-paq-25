@@ -74,15 +74,26 @@ export default function ProgramasEspacos() {
           content="Primeiros passos para explorar as carreiras cultura do ecossistema de tecnologia,
           desenvolver habilidades e competências básicas - Porta de entrada para quem quer
           iniciar no PAQ!"
+          publico="Jovens de 16 a 21 anos"
+          duracao="8 semanas"
+          formato="Presencial nas unidades Pedra Branca (Palhoça) e SC-401 (Florianópolis)"
+          inscricoes="Trimestralmente (Site e instagram)"
+          preRequisitos="Conhecimentos básicos de informática"
           imageSrc={cardImg1}
           alt="Jovens no PAQ"
         >
+     
           <ProgramasEspacosImersao />
         </CardBase>
 
         <CardBase
           title="ACELERAÇÃO"
           content="O objetivo é qualificar tecnicamente os jovens para entrada no mercado tech. Desenvolvemos uma metodologia gameficada e baseada em projetos na qual o jovem é o protagonista da jornada."
+          publico="Jovens de 16 a 21 anos"
+          duracao="18 meses"
+          formato="Híbrido"
+          inscricoes="Trimestralmente (internas)"
+          preRequisitos="Ter feito o programa de imersão"
           imageSrc={cardImg2}
           alt="Jovens no PAQ"
         >

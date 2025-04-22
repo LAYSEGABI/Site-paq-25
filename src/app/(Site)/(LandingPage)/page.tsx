@@ -9,6 +9,7 @@ import PapelPAQ from "@/app/components/PapelPaq/PapelPAQ";
 import JuntoComAGente from "@/app/components/JuntoComAGente/JuntoComAGente";
 import ComoFazerParte from "@/app/components/comoFazerParte/ComoFazerParte";
 //import ExperienciasAprendizado from "@/app/components/ExperienciasAprendizado/ExperienciasAprendizado";
+//import ProgramasExperiencias from "@/app/components/ProgramasExperiencias/ProgramasExperiencias";
 import ComoPossoFazerParte from "@/app/components/ComoPossoApoiar/ComoPossoApoiar";
 import Contact from "@/app/components/Contact";
 import { ToastContainer } from "react-toastify";

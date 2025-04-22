@@ -7,7 +7,10 @@
   flex-direction: column;
   width: 100%;
   align-items: center;
-  background: #fafafa;
+  background: #b8eaff;
+  background: linear-gradient(0deg,rgb(163, 220, 245) 2%, rgba(207, 245, 255, 1) 35%, rgba(255, 255, 255, 1) 100%);
+  padding-bottom: 4rem;
+  margin-bottom: -10px;
 }
 
 .programHeader {
@@ -57,19 +60,19 @@
 }
 
 .programCards {
-   width: 80%;
+   width: 70%;
    padding: 2em;
    align-items: center;
    display: flex;
-   flex-wrap: wrap;  /* Permite a quebra de linha */
+   flex-direction: column; 
    gap: 16px; 
    justify-content: space-between;
 }
 
 
 .programCards > div { 
-  width: calc(50% - 8px); 
-  
+  width: 100%;
+
 }
 
 @media (max-width: 1028px) {

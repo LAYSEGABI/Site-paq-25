@@ -17,6 +17,12 @@
   align-items: center;
   font-size: 1em;
 }
+.itens > img {
+  transition: .5s;
+}
+.itens > img:hover {
+  transform: rotate(20deg);
+}
 
 .itensNav {
   display: flex;
@@ -40,7 +46,7 @@
   width: 100%;
   height: 2px;
   border-radius: 5px;
-  bottom: -5px; /* Ajusta a posição para ficar mais visível */
+  bottom: -7px; /* Ajusta a posição para ficar mais visível */
   left: 0;
   background-color: var(--azul-paq);
   visibility: hidden;
