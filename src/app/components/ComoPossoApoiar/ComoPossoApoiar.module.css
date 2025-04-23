@@ -6,7 +6,6 @@
   padding: 4em;
   padding-bottom: 3em;
   transition: all 0.5s ease-in-out;
-  clip-path: polygon(0 0, 100% 5%, 100% 100%, 0 100%);
 }
 
 .container>h2 {

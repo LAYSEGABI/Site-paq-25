@@ -3,7 +3,7 @@
   flex-direction: column;
   align-items: center;
   margin: 2em 0;
-  background-color: red;
+  overflow: hidden;
 }
 
 .container>h2 {
@@ -59,3 +59,4 @@
     object-fit: cover;
   }
 }
+
