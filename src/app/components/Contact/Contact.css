@@ -56,6 +56,7 @@
 @media screen and (max-width: 768px) {
     #contact-container {
         height: 723px;
+        padding: 1rem;
     }
 
     .contact-form {
