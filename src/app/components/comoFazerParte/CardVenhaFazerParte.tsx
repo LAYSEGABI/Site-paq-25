@@ -77,7 +77,7 @@ const CardContent1: React.FC = () => (
       <Image src={anajulia} alt='' width={270} height={333} className='hidden md:block aspect-auto object-cover rounded-2xl lg:hidden my-0' />
     </div>
     {/* Card Mobile */}
-    <div className='md:hidden flex flex-col items-center gap-4 pb-6 justify-center border border-solid border-azul-paq rounded-2xl w-full'>
+    <div className={style.cardMobile}>
       <Image src={anajuliamobile} alt='' width={270} height={190} className='object-contain rounded-t-2xl my-0' />
       <h2 className={style.titulocardfazerparte}>Educando</h2>
       <p className={`${style.textinhofazerparte}w-full`}>Se você é um <span className='font-bold'>jovem de quebrada da<br />Grande Floripa</span> e tem entre <span className='font-bold'>16 e 21<br /> anos</span>, vem participar do PAQ e<br />transformar o seu futuro! </p>
@@ -104,7 +104,7 @@ const CardContent2: React.FC = () => (
       <Image src={evanz} alt='' width={270} height={333} className='hidden md:block aspect-auto object-cover rounded-2xl lg:hidden my-0' />
     </div>
     {/* Card Mobile */}
-    <div className='md:hidden flex flex-col items-center gap-4 pb-6 justify-center border border-solid border-azul-paq rounded-2xl  w-full'>
+    <div className={style.cardMobile}>
       <Image src={evanz} alt='' width={270} height={190} className='object-contain rounded-t-2xl my-0' />
       <h2 className={style.titulocardfazerparte}>Mentor</h2>
       <p className={`${style.textinhofazerparte}w-full`}>Traga sua bagagem e experiências<br />para trocar com nossos jovens.<br /> Essa é uma oportunidade incrível de<br />conexão, onde você se desafia a<br />ensinar e também a aprender!</p>
@@ -134,7 +134,7 @@ const CardContent3: React.FC = () => (
     <div className={style.cardMobile}>
       <Image src={costaspaq} alt='' width={270} height={190} className='object-contain rounded-t-2xl my-0' />
       <h2 className={style.titulocardfazerparte}>Voluntário</h2>
-      <p className={`${style.textinhofazerparte}w-full`}>Venha fazer parte da da missão<br />do Prototipando a Quebrada <br /> colaborando com o que você faz de <br />melhor - todas as áreas tem a sua<br />importância, certo? </p>
+      <p className={style.textinhofazerparteMobile}>Venha fazer parte da da missão<br />do Prototipando a Quebrada <br /> colaborando com o que você faz de <br />melhor - todas as áreas tem a sua<br />importância, certo? </p>
       <Button title='Quero ser voluntario' href='/' width='160px' height='45px' />
     </div>
   </div>

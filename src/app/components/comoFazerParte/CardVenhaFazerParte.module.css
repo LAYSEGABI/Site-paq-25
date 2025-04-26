@@ -73,11 +73,20 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    gap: 1rem; 
-    padding-bottom: 1.5rem;
+    gap: 1rem;
     border: 1px solid blue;
     border-radius: 1rem;
     width: 100%;
+    padding-bottom: 1rem;
+}
+
+.cardMobile .titulocardfazerparte {
+    padding: .5rem 1rem;
+}
+
+
+.cardMobile .textinhofazerparte {
+    padding: .5rem 1rem;
 }
 
 
@@ -128,49 +137,12 @@
         font-size: 9.391px;
         line-height: 11.739px;
     }
-}
 
-@media (max-width: 767px) {
-    .titulocardfazerparte {
-        font-size: 35px;
-        line-height: 44.471px;
-        text-align: center;
+
+    .cardMobile .titulocardfazerparte {
+       padding: .5rem;
     }
 
-    .textinhofazerparte {
-        font-size: 9.391px;
-        line-height: 11.739px;
-        text-align: center;
-    }
 
-    .btn {
-        display: flex;
-        height: 2.15038rem;
-        padding: 0.60644rem 0.75rem;
-        text-align: center;
-        justify-content: center;
-        align-items: center;
-        transition: all 500ms ease-in-out;
-        text-align: center;
-        font-family: Poppins;
-        font-size: 0.75rem;
-        font-style: normal;
-        font-weight: 600;
-        line-height: 0.89569rem;
-        /* 119.423% */
-    }
-
-    .containerButtons {
-        border-radius: 1.866rem;
-        background: var(--Fundo-Cinza, #F7F7F7);
-        margin-bottom: 38px;
-        display: flex;
-        height: 2.71019rem;
-        padding: 0.27988rem 0.32656rem;
-        justify-content: center;
-        text-align: center;
-        align-items: center;
-        gap: 0.4665rem;
-        flex-shrink: 0;
-    }
+   
 }
