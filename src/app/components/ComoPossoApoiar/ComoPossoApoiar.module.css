@@ -5,7 +5,9 @@
   gap: 20px;
   padding: 4em;
   padding-bottom: 3em;
+  width: 100%;
   transition: all 0.5s ease-in-out;
+  overflow: hidden;
 }
 
 .container>h2 {

@@ -131,7 +131,7 @@ const CardContent3: React.FC = () => (
       <Image src={costaspaq} alt='' width={270} height={333} className='hidden md:block aspect-auto object-cover rounded-2xl lg:hidden my-0' />
     </div>
      {/* Card Mobile */}
-    <div className='md:hidden flex flex-col items-center gap-4 pb-6 justify-center ounded-2xl border border-solid border-azul-paq rounded-2xl w-full'>
+    <div className={style.cardMobile}>
       <Image src={costaspaq} alt='' width={270} height={190} className='object-contain rounded-t-2xl my-0' />
       <h2 className={style.titulocardfazerparte}>Voluntário</h2>
       <p className={`${style.textinhofazerparte}w-full`}>Venha fazer parte da da missão<br />do Prototipando a Quebrada <br /> colaborando com o que você faz de <br />melhor - todas as áreas tem a sua<br />importância, certo? </p>
