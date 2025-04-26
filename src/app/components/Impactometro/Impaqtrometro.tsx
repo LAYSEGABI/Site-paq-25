@@ -93,7 +93,7 @@ export default function Impaqtrometro() {
             />
           </div>
         </div>
-        <footer>
+        <div className={styles.portal}>
           <h2>portal da transparência</h2>
           <div>
             <Button 
@@ -128,7 +128,7 @@ export default function Impaqtrometro() {
 
             
           </div>
-        </footer>
+        </div>
       </section>
 
       

@@ -89,4 +89,9 @@
   .programCards {
     display: none;
   }
+
+  
+.programHeader p {
+  width: 70%;
+}
 }
