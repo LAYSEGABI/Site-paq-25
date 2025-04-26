@@ -151,7 +151,7 @@
 
 }
 
-@media (max-width:450px) {
+@media (max-width:400px) {
 
     .impaqtometroCard {
         flex-direction: row;
@@ -168,6 +168,11 @@
         line-height: 40px;
         letter-spacing: 2px;
         text-transform: uppercase
+    }
+
+    .portal > div {
+        margin: 1rem;
+        padding: 1rem;
     }
 
     
